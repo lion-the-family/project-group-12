@@ -1,0 +1,70 @@
+@import './header.css';
+@import './hero.css';
+@import './about-us.css';
+@import './catalog.css';
+@import './advertisement.css';
+@import './sale.css';
+@import './reviews.css';
+@import './contact-us.css';
+@import './footer.css';
+
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url(/src/fonts/Gilroy-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(/src/fonts/Gilroy-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(/src/fonts/Gilroy-Semibold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Gilroy-Medium';
+}
+
+
+ul,
+ol,h1,h2,h3,h4,h5,p {
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+button {
+    cursor: pointer;
+}
+
